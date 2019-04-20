@@ -6,30 +6,56 @@
         <title>gore.rip</title>
         <link rel = "stylesheet" href = "main.css">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src = "./main.js"></script>
     </head>
     <body>
-        <main class = "animated fadeIn slower">
-            <s>
-                <h1>hello!</h1>
-            </s>
-            <p>
-                my name is colby taylor, I'm a <a href = "https://github.com/weeaboo">front-end web developer</a> from
-                atlantic canada. I aspire for every <a href = "./projects.html">project</a> I work on to be as visually appealing as possible. <i>also possesses an undying love for <a href = "http://precure.gore.rip">mahou shoujo</a> and <a href = "https://myanimelist.net/anime/genre/5/Dementia">dementia</a> series.</i>
-            </p>
-            <br>
-            <p>
-                html/scss, javascript & vuejs are my tools of choice!
-            </p>
-            <br>
-            <p>
-                starting my first year at <a href = "https://en.wikipedia.org/wiki/Memorial_University_of_Newfoundland">memorial university</a> in the fall, I'm hoping to eventually obtain a bachelor of arts in computer science with a minor in psychology.
-            </p>
+        <main class = "animated fadeIn slow">
+            <div id = "landing">
+                <s>
+                    <h1>hello!</h1>
+                </s>
+                <p>
+                    my name is colby taylor, I'm a <a href = "https://github.com/weeaboo">front-end web developer</a> from
+                    atlantic canada. I aspire for every <a href = "#" id = "project-link">project</a> I work on to be as visually appealing as possible.
+                </p>
+                <br>
+                <p>
+                    html/scss, javascript & vuejs are my tools of choice!
+                </p>
+                <br>
+                <p>
+                    starting my first year at <a href = "https://en.wikipedia.org/wiki/Memorial_University_of_Newfoundland">memorial university</a> in the fall, I'm hoping to eventually obtain a bachelor of arts in computer science with a minor in psychology.
+                </p>
+            </div>
+            <div id = "projects">
+                <s>
+                    <h1>projects:</h1>
+                </s>
+                <ol>
+                    <li>
+                        <a href = "https://github.com/weeaboo/gore.rip">gore.rip</a> - my personal site, created simply with scss and jquery.
+                    </li>
+                    <li>
+                        <a href = "http://sukejuru.gore.rip/">sukejuru</a>
+                        - a small vuejs based app that retrieves anime series scheduled to air on that particular day.
+                    </li>
+                    <li>
+                        any other random projects I work on, can be found on my 
+                        <a href = "https://github.com/weeaboo/">github!</a>
+                    </li>
+                </ol>
+                <a href = "#" id = "back-link">
+                    ⟵
+                </a>
+            </div>
+            <footer class = "animated fadeIn">
+                <p>
+                    made with <a href = "https://sass-lang.com/">sass</a> & hosted on <a href = "https://surge.sh">surge.sh</a>
+                </p>
+            </footer>
         </main>
-        <footer class = "animated fadeIn slower">
-            <p>
-                made with <a href = "https://sass-lang.com/">sass</a> & hosted on <a href = "https://surge.sh">surge.sh</a>
-            </p>
-        </footer>
         <div id = "darker-slant" class = "animated fadeIn delay-2s"></div>
         <div id = "slant" class = "animated fadeIn delay-1s"></div>
     </body>
